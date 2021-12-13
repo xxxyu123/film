@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>电影工厂-论坛</title>
+        <meta charset="utf-8" />
+        <link href="论坛.css" rel="stylesheet" media="all" />
+        <script language="javascript">
+            function div_none(theclass){
+            var allPageTags = new Array();
+            var allPageTags = document.getElementsByTagName("div");
+            
+            for (i=0; i<allPageTags.length;i++){
+            if(allPageTags[i].className == theclass){
+            var obj = allPageTags[i];
+            
+            if(obj.style.display == "none"){
+            obj.style.display = "";
+            
+            }else{
+                obj.style.display = "none";
+                
+            
+            }
+            }
+            }
+            }
+            </script>
+    </head>
+    <body>
+        <div class="zuoze">
+            <div class="top">
+                <div class="top_1">
+                    <a href="主页.html">
+                        <div class="logo"></div>
+                    </a>  
+                    <a href="主页.html">
+                        <div >
+                          <p class="yuedu">电影工厂</p>
+                        </div>
+                    </a> 
+                </div>
+                <div class="top_2">
+                    <div class="s">
+                        <input type="search" value="搜索电影或导演" class="shous">
+                        
+                    </div>
+                    <div class="">
+                        <input type="button" class="btn" >
+                    </div>   
+                    
+                </div>
+                <div class="top_3">
+                    <div ><a href="" class="right_">收藏</a></div>
+                    <div><a href="" class="right_">关注</a></div>
+                    <div ><a href="" class="right_">消息</a></div>
+                    <div><a href="个人页面.html" class="right_1">个人</a></div>
+                </div>
+
+            </div>
+            <div class="gu"></div>
+            <div class="boody">
+                <div class="left_body">
+                    <div class="lb_1">
+                        <img src="img/toux.jpg" class="toux" />
+                    </div>
+                    <div class="lb_2">一大条糖醋鱼</div>
+                    <div class="lb_3">
+                        <ul>
+                            <li class="li"><a href="个人页面.html">个人空间</a></li>
+                            <li class="li"><a href="">我的帖子</a></li>
+                            <li class="li"><a href="">我的消息</a></li>
+                            <li class="li"><a href="">推荐电影</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right_body">
+                    <div class="rr_1">
+                            <textarea class="rrr_1" placeholder="发表你的话题吧" ></textarea>
+                            <div class="rrr_2">
+                                <div class="rrr_3"><img src="img/表情.png" /></div>
+                                <div class="rrr_3"><img src="img/图片.png" /></div>
+                                <div class="rrr_3"><img src="img/话题.png" /></div>
+                                <div class="rrr_4">
+                                    <input type="button" class="buttom"  value="发布"/>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="rr_2">
+                        <div class="rr_2_">
+                            <div class="rr_2_1"><a href="">热门</a></div>
+                            <div class="rr_2_2"><a   href="" >最新</a></div>
+                        </div>
+                    </div>
+                    <div class="rr_3" style="display: block;">
+                        <div class="xin">
+                            <div class="xi">热</div>
+                        </div>
+                            <a class="aa"  href="">换一换</a>
+                            <div class="rr_4">
+                                <div class="rr_4_left">
+                                    <img src="img/toux.jpg" class="rr_4_img" />
+                                </div>
+                                <div class="rr_4_right">
+                                    <div class="rr_4_name">一大条糖醋鱼</div>
+                                    <div class="rr_4_h">#电影推荐#</div>
+                                    <div class="rr_4_p">电影围绕校园霸凌展开，成长是母题，但意义却远超公众对校园欺凌的认知，更是对“问题少年”的重新审视</div>
+                                    <div class="rr_4_jpg">
+                                        <a href="" class="aaa">
+                                            <img src="img/转发.png" class="jpg_png"/>
+                                                
+                                            <div class="jpg_">(423)</div>
+                                        </a>
+                                        <a  name="a1" onClick="div_none('a1');" class="aaa">
+                                            <img src="img/回复.png" class="jpg_png"/>
+                                        
+                                        <div class="jpg_">(423)</div>
+                                        </a>
+                                        <a href="" class="aaa">
+                                                <img src="img/点赞2.png" class="jpg_png"/>
+                                            
+                                            <div class="jpg_">(233)</div>
+                                            </a>
+                                        
+                                    </div>
+                                    <div style="display:none;" class="a1">
+                                        <input type="text" class="search" placeholder="发表评论" >
+                                        <a href="" class="a11">
+                                            <img src="img/回复.png" class="a12">
+                                            <div class="a111">(423)</div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rr_4">
+                                    <div class="rr_4_left">
+                                        <img src="img/toux.jpg" class="rr_4_img" />
+                                    </div>
+                                    <div class="rr_4_right">
+                                        <div class="rr_4_name">一大条糖醋鱼</div>
+                                        <div class="rr_4_h">#电影推荐#</div>
+                                        <div class="rr_4_p">电影围绕校园霸凌展开，成长是母题，但意义却远超公众对校园欺凌的认知，更是对“问题少年”的重新审视</div>
+                                        <div class="rr_4_jpg">
+                                            <a href="" class="aaa">
+                                                <img src="img/转发.png" class="jpg_png"/>
+                                                    
+                                                <div class="jpg_">(423)</div>
+                                            </a>
+                                            <a  name="a1" onClick="div_none('a2');" class="aaa">
+                                                <img src="img/回复.png" class="jpg_png"/>
+                                            
+                                            <div class="jpg_">(423)</div>
+                                            </a>
+                                            <a href="" class="aaa">
+                                                    <img src="img/点赞2.png" class="jpg_png"/>
+                                                
+                                                <div class="jpg_">(233)</div>
+                                                </a>
+                                            
+                                        </div>
+                                        <div style="display:none;" class="a2">
+                                            <input type="text" class="search" placeholder="发表评论" >
+                                            <a href="" class="a11">
+                                                <img src="img/回复.png" class="a12">
+                                                <div class="a111">(423)</div>
+                                            </a>
+                                            
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="rr_4">
+                                        <div class="rr_4_left">
+                                            <img src="img/toux.jpg" class="rr_4_img" />
+                                        </div>
+                                        <div class="rr_4_right">
+                                            <div class="rr_4_name">一大条糖醋鱼</div>
+                                            <div class="rr_4_h">#电影推荐#</div>
+                                            <div class="rr_4_p">电影围绕校园霸凌展开，成长是母题，但意义却远超公众对校园欺凌的认知，更是对“问题少年”的重新审视</div>
+                                            <div class="rr_4_jpg">
+                                                <a href="" class="aaa">
+                                                    <img src="img/转发.png" class="jpg_png"/>
+                                                        
+                                                    <div class="jpg_">(423)</div>
+                                                </a>
+                                                <a  name="a1" onClick="div_none('a3');" class="aaa">
+                                                    <img src="img/回复.png" class="jpg_png"/>
+                                                
+                                                <div class="jpg_">(423)</div>
+                                                </a>
+                                                <a href="" class="aaa">
+                                                        <img src="img/点赞2.png" class="jpg_png"/>
+                                                    
+                                                    <div class="jpg_">(233)</div>
+                                                    </a>
+                                                
+                                            </div>
+                                            <div style="display:none;" class="a3">
+                                                <input type="text" class="search" placeholder="发表评论" >
+                                                <a href="" class="a11">
+                                                    <img src="img/回复.png" class="a12">
+                                                    <div class="a111">(423)</div>
+                                                </a>
+                                                
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="body_bottom">
+                                    <div class="bottom">
+                                            
+                                        <div class="b_1"><a href="">1</a></div>
+                                        <div class="b_2"><a href="">2</a></div>                        <div class="b_2"><a href="">3</a></div>
+                                        <div class="b_2"><a href="">后页</a></div>
+                                        <div class="b_3"><a href=""> > </a></div>
+                        
+                                    </div>
+                                </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+    </body>
